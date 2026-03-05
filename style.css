@@ -36,10 +36,11 @@ body{
     }
 }
 .mensaje{
-    margin-top: 10px;
-    width: 70%;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    text-shadow: 0 0 10px #ff4d6d;
     text-align: center;
-    font-size: 50px;
 }
 #corazon{
     display:grid;

@@ -1,4 +1,4 @@
-const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado.";
+const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado. Te quiero mucho";
 let i = 0;
 function escribir(){
 if(i < texto.length){
