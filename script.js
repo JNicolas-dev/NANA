@@ -1,11 +1,13 @@
-const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado. Te quiero mucho";
+const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado.\n\n Te quiero mucho";
+const mensaje = document.getElementById("mensaje");
+mensaje.textContent = ""; // limpia cualquier texto previo
 let i = 0;
 function escribir(){
-if(i < texto.length){
-document.getElementById("mensaje").innerHTML += texto.charAt(i);
-i++;
-setTimeout(escribir, 50);
-}
+    if(i < texto.length){
+        mensaje.textContent += texto.charAt(i);
+        i++;
+        setTimeout(escribir, 50);
+    }
 }
 escribir();
 
