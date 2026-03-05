@@ -41,7 +41,6 @@ body{
     font-family: 'Segoe UI', sans-serif;
     text-shadow: 0 0 10px #ff4d6d;
     text-align: center;
-    white-space: pre-line;
 }
 #corazon{
     display:grid;

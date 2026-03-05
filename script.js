@@ -12,7 +12,6 @@ function escribir(){
 escribir();
 
 document.addEventListener("DOMContentLoaded", function(){
-
 const corazon = document.getElementById("corazon");
 
 const forma = [
