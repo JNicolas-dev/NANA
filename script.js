@@ -1,4 +1,4 @@
-const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado.\n\n Te quiero mucho";
+const texto = "Siempre voy a estar aquí para ti, incluso cuando el mundo se sienta pesado.";
 const mensaje = document.getElementById("mensaje");
 mensaje.textContent = ""; // limpia cualquier texto previo
 let i = 0;
